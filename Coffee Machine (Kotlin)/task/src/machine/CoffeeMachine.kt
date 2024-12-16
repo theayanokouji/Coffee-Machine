@@ -1,17 +1,12 @@
 package machine
 
 class CoffeeMachine (
-    _water: Int,
-    _milk: Int,
-    _coffeeBeans: Int,
-    _cupsOfCoffee: Int,
-    _money: Int
+    private var water: Int,
+    private var milk: Int,
+    private var coffeeBeans: Int,
+    private var cupsOfCoffee: Int,
+    private var money: Int
 ) {
-    private var water: Int = _water
-    private var milk: Int = _milk
-    private var coffeeBeans: Int = _coffeeBeans
-    private var cupsOfCoffee: Int = _cupsOfCoffee
-    private var money: Int = _money
 
     // function to display
     private fun display() {
